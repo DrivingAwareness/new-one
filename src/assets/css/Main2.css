@@ -1,0 +1,108 @@
+.Main2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main2-container{
+  height: 100%;
+  width: 80%;
+  padding: 4vh;
+  background-image: url("https://images.unsplash.com/photo-1595001655871-ef592dba0f1f?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.Main2-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main2-container h1{
+  text-align: center;
+    margin-bottom: 1em;
+    font-weight: 800;
+    font-size: 3.5vw;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+}
+.card {
+  margin-top: 3em;
+  width: 25vw;
+  display: flex;
+  background: transparent;
+  border: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: 8vw;
+  display: block;
+}
+
+.card h4 {
+  margin-top: 0;
+  font-size: 2vw;
+  color: white;
+}
+
+.card p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2vw;
+  color: white;
+}
+@media (min-width:300px) and (max-width:600px) {
+  .Main2{
+    background-color: black;
+  }
+  .Main2-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main2-container h1{
+    font-size: 4vh;
+    text-align: center;
+  }
+  .card{
+    place-items: center;
+    place-self: center;
+    width: 100%;
+    padding: 2vh;
+  }
+  .card img{
+    height: 7vh;
+  }
+}
+@media (min-width:601px) and (max-width:1025px) {
+  .Main2{
+    background-color: black;
+  }
+  .Main2-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .main2-container h1{
+    font-size: 6vh;
+    text-align: center;
+  }
+  .card{
+    width: 25vh;
+    padding: 2vh;
+  }
+  .card img{
+    height: 7vh;
+  }
+}

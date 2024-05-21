@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jersey+25+Charted&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bigmaincontainer{
+  width: 100%;
+  height: 100%;
+  background-image: url("public/photo-1566243052021-d39ace07c392.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: contain;
+  overflow: hidden;
+}
+
+
+
+

@@ -1,0 +1,75 @@
+
+.Footer{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(96, 6, 6);
+    color: gray;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  }
+  .companyDetails{
+    width: 80%;
+    height: 100%;
+  }
+  .companyDetails p{
+    margin-top: 2rem;
+  }
+  .categories{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .categories li{
+    list-style: none;
+  }
+  .categories li a{
+    text-decoration: none;
+    color: white;
+    opacity: .6;
+  }
+  .icon ul li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+  .copyright{
+    background-color: gray;
+    height: 3vh;
+    text-align: center;
+  }
+  @media (max-width:600px) {
+    .Footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+      width: 100%;
+    }
+    .categories{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media (min-width:601px) and (max-width:1026px) {
+    .Footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+    }
+    .categories{
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: start;
+    }
+  }

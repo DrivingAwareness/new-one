@@ -1,0 +1,105 @@
+.Theory-Test{
+    width: 100%;
+    height: 100%;
+    padding: 2vw;
+    background-image: url("https://img.freepik.com/free-vector/white-elegant-texture-background-style_23-2148432200.jpg?t=st=1715843270~exp=1715846870~hmac=fe25d801d21316188f3f6741be1139f34667d4a8107203775dde2f8f04ffaa23&w=900");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Theory-Test h1 , h2{
+    margin: 4vh 0;
+    font-weight: 800;
+    font-size: 3vw;
+}
+.Theory-Test p{
+    font-size: 4vh;
+}
+.Theory-Test ol li {
+    margin-top: 1vw;
+    margin-left: 5vh
+}
+.Theory-Test .lowerparagraph{
+ margin-top: 3vh;
+}
+
+.Theory-Test .button{
+    display: flex;
+    gap: 6vw;
+    margin-top: 12vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11vh;
+    
+}
+button{
+    height: 5vw;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+    .Theory-Test{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 0vw;
+        padding: 2vh;
+    }
+    .Theory-Test h1 {
+        font-size: 5vh;
+      }
+      .Theory-Test p{
+        font-size: 4vh;
+      }
+      .Theory-Test ol li{
+        font-size: 4vh;
+      }
+      .Theory-Test .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -2vh;
+    
+      }
+      button{
+        font-size: 1.5vh;
+        height: 6vh;
+        width: 10vh;
+      }
+    
+}
+@media (min-width: 601px) and (max-width: 1025px) {
+    .Theory-Test{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 0vw;
+        padding: 4.5vh;
+    }
+    .Theory-Test h1 {
+        font-size: 5vh;
+      }
+      .Theory-Test p{
+        font-size: 4vh;
+      }
+      .Theory-Test ol li{
+        font-size: 4vh;
+      }
+      .Theory-Test .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -2vh;
+    
+      }
+      button{
+        font-size: 1.5vh;
+        height: 6vh;
+        width: 10vh;
+      }
+    
+}

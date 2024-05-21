@@ -1,0 +1,58 @@
+.page2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    padding: 6vw;
+  }
+  .page2 img {
+    margin-left: -10px;
+    height: 8vw;
+  }
+  .page2 .heading{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(3, 3, 120);
+    display: flex;
+    justify-content: center;
+  }
+  .page2 .card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 7rem;
+    grid-gap: 4rem;
+    outline: none;
+    border: none;
+  }
+  .card .smallcontainer{
+    margin-top: 2vw;
+    margin-left: 6vw;
+  }
+  @media (max-width:600px) {
+    .page2 {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 1vh;
+      width: 100%;
+      background-color: white;
+      padding: 2rem 5rem 0 5rem;
+    }
+    .page2 .heading h1{
+      font-family: "Anton", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2vh;
+      color: rgb(3, 3, 120);
+      display: flex;
+      
+    }
+    .card{
+      margin-left: 0;
+    }
+  }

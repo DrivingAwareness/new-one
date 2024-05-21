@@ -1,0 +1,160 @@
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+}
+nav{
+  height: 100%;
+  width: 80vw;
+  padding: 1vw 2vw;
+  background-color:  black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid red;
+}
+.logo{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  height:5vw;
+}
+.nav-part2{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-part2 ul{
+  display: flex;
+  gap: 2vw;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-part2 ul li{
+  list-style: none;
+  place-items: center;
+}
+.nav-part2 ul li a{
+  text-decoration: none;
+  color: white;
+  -webkit-text-stroke: 1px rgb(248, 223, 223);
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.nav-part3{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-part3 ul{
+  display: flex;
+  margin-top: 10px;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.nav-part3 ul li{
+  list-style: none;
+  place-items: center;
+}
+.nav-part3 ul li a{
+  text-decoration: none;
+  -webkit-text-stroke: 1px rgb(248, 223, 223);
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.hamburger-menu{
+  display: none;
+}
+.offcanvas-title{
+  width: 100%;
+  font-size: 4vh;
+  margin-left: 2vh;
+  text-align: center;
+}
+@media (max-width:600px) {
+  nav{
+    width: 100vh;
+    padding: 20px;
+  }
+  .logo img{
+    height: 5vh;
+    width: 24vh;
+  }
+  .nav-part2 {
+    display: none;
+  }
+  .nav-part3{
+    display: none;
+  }
+  .hamburger-menu{
+    display: block;
+  }
+  .fa-bars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 7vh;
+  }
+  .offcanvas-body ul li{
+    margin-right: 2.5vh;
+    padding: 1.8vh;
+    border-radius: 20px;
+      list-style: none;
+      background-color: red;
+      text-align: center;
+      margin-top: 4vh;
+  }
+  .offcanvas-body ul li a{
+    color: white;
+    font-size: 2.6vh;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+@media (min-width:601px) and (max-width:1025px) {
+  nav{
+    width: 100vw;
+  }
+  .nav-part2  {
+      display: none;
+  
+  }
+  .hamburger-menu{
+    display: block;
+  }
+  .fa-bars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 7vh;
+  }
+  .offcanvas-body ul li{
+    margin-right: 2.5vh;
+    padding: 1.8vh;
+    border-radius: 20px;
+      list-style: none;
+      background-color: red;
+      text-align: center;
+      margin-top: 4vh;
+  }
+  .offcanvas-body ul li a{
+    color: white;
+    font-size: 2.6vh;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .nav-part3 {
+    display: none;
+  }
+}

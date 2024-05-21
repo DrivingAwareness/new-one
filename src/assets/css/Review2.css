@@ -1,0 +1,108 @@
+.review{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  /* margin-bottom: 2vw; */
+  padding: 2vh 0 4vw;
+  /* background: transparent; */
+}
+.review-contain{
+  height: 100%;
+  width: 80vw;
+  background-image: url("https://media.istockphoto.com/id/1495720896/photo/driving-school-inscription-on-car-license-plate-near-road-cones-traffic-laws-driving-courses.jpg?s=1024x1024&w=is&k=20&c=u9TJBl_jwI1UvAM5OF_hACExBbFqOdfmNvA0iPJP2_E=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1vw 3vw 4vw;
+  border-radius: 20px;
+}
+.review-contain h2{
+  /* text-align: center; */
+  font-weight: 800;
+  font-size: 3vw;
+  margin: 0 1vw 3vw;
+  color: white;
+  border: none;
+}
+.review-card{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 2vw;
+  border-radius: 20px;
+}
+.review-card img{
+  height: 7vw;
+  width: 7vw;
+  border-radius: 50%;
+}
+.review-card h4{
+  margin: 2vh 0;
+  font-size: 1.5vw;
+}
+.slick-slide >div{
+  margin: 0 20px;
+}
+@media (min-width:300px) and (max-width:600px) {
+  .review{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    /* margin-bottom: 2vw; */
+    padding: 2vh 0 4vw;
+    /* background: transparent; */
+  }
+  .review-contain{
+    height: 100%;
+    width: 80vw;
+    background-image: url("https://media.istockphoto.com/id/1495720896/photo/driving-school-inscription-on-car-license-plate-near-road-cones-traffic-laws-driving-courses.jpg?s=1024x1024&w=is&k=20&c=u9TJBl_jwI1UvAM5OF_hACExBbFqOdfmNvA0iPJP2_E=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw 3vw 4vw;
+    border-radius: 20px;
+  }
+  .review-contain h2{
+    /* text-align: center; */
+    font-weight: 800;
+    font-size: 3vw;
+    margin: 0 1vw 3vw;
+    color: white;
+    border: none;
+  }
+  .review-card{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    border-radius: 20px;
+  }
+  .review-card img{
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+  }
+  .review-card h4{
+    margin: 2vh 0;
+    font-size: 1.5vw;
+  }
+  .review-card span{
+    font-size: 1vh;
+  }
+  .review-card p{
+    font-size: 1vh;
+  }
+  .slick-slide >div{
+    margin: 0 10px;
+  }
+}

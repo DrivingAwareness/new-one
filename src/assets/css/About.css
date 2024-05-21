@@ -1,0 +1,46 @@
+.About{
+    height: 100%;
+    width: 100%;
+    padding: 4vh;
+    background-image: url(' https://img.freepik.com/free-vector/white-elegant-texture-background-style_23-2148432200.jpg?t=st=1715843270~exp=1715846870~hmac=fe25d801d21316188f3f6741be1139f34667d4a8107203775dde2f8f04ffaa23&w=900');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.About h1{
+    font-size: 4vw;
+    font-weight: 800;
+
+}
+.About p{
+    font-size: 1.6vw;
+    margin-top: 4vh;
+}
+.About .button{
+    display: flex;
+    gap: 6vw;
+    margin-top: 12vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35vh;
+    
+}
+button{
+    height: 5vw;
+}
+@media (max-width:600px) {
+    .About h1{
+        font-size: 3vh;
+    }
+    .About p{
+        font-size: 2vh;
+    }
+}
+@media (min-width:601px) and (max-width:1025px) {
+    .About h1{
+        font-size: 5vw;
+    }
+    .About p{
+        font-size: 3vw;
+    }
+}

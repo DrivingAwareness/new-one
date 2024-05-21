@@ -1,0 +1,236 @@
+.contant-main{
+  height: 100%;
+  width: 100%;
+  background-image: url("public/photo-1566243052021-d39ace07c392.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.content{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 2vw;
+  gap: 2vw;
+}
+.left-content{
+  margin: 5vw;
+  width: 46vw;
+}
+h1{
+  -webkit-text-stroke: 1px red;
+}
+.Left-content-heading h1 .Book{
+  display: inline-block;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5vw;
+}
+.Left-content-heading h1 .today{
+   display: block;
+   text-align: center;
+   font-size: 5vw;
+   font-weight: 800;
+}
+.Left-content-paragraph p{
+  font-size: 1.4vw;
+  text-align: center;
+  -webkit-text-stroke: .5px red;
+
+}
+.right-content{
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  color: red;
+  text-align: center;
+  font-size: 1vw;
+  /* place-items: center; */
+}
+h4{
+  font-size: 2vw;
+  font-weight: 800;
+}
+.right-content .form-box{
+  display: flex;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 2vw;
+  /* gap: 1vw; */
+  flex-direction: column;
+  border: 2px solid red;
+  box-shadow: 7px -7px 10px red;
+}
+.form-box h6 a{
+  font-size: 1.5vw;
+  color: red;
+  text-decoration: none;
+  font-weight: 900;
+}
+.right-content .form-box form{
+  display: flex;
+  gap: 1vw;
+  flex-direction: column;
+}
+.right-content .form-box form input{
+  width: 100%;
+  height: 5vh;
+  border: 1px solid red;
+  padding:  0 2vw ;
+  border-radius: 20px;
+}
+.right-content .form-box form textarea{
+  height: 20vh;
+  width: 100%;
+  padding: 1vw;
+  border-radius: 20px;
+  border: 1px solid red;
+}
+.submit{
+  background-color: red;
+  color: white;
+  /* height: 200px; */
+}
+@media (min-width:300px) and (max-width:600px) {
+  .content{
+      height: 100%;
+      padding: 8vh 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      /* color: red;  */
+  }
+  .left-content{
+      margin: 8vh 0;
+      width: 100%;
+      height: 10vh;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+  .Left-content-heading h1 .Book{
+      font-size: 3.5vh;
+  }
+  .Left-content-heading h1 .today{
+      margin: 1.6vh;
+      font-size: 6vh;
+  }
+  .Left-content-paragraph p{
+      font-size: 1.5vh;
+  }
+  .right-content{
+      margin-top: 8vh;
+      margin-bottom: 2vh;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: red ;
+  }
+  h4{
+    font-size: 3vh;
+  }
+  .right-content h6{
+    font-size: 1.8vh;
+      /* margin-left: -1.5vh; */
+  }
+  .right-content .form-box{
+      font-size: 3vh;
+      padding: 4vh;
+  }
+  .right-content .form-box form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .right-content .form-box form input{
+      width: 30vh;
+      height: 5vh;
+      margin-top: 10px;
+      text-align: center;
+      border-radius: 20px;
+      border: 1px solid red;
+  }
+  .right-content .form-box form textarea{
+      width: 30vh;
+      margin-top: 2vh;
+  }
+}
+
+@media (min-width:601px ) and (max-width:1025px) {
+  .content{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .left-content{
+      width: 80vw;
+      height: 30vh;
+      text-align: center;
+  }
+  .Left-content-heading h1 .Book{
+      font-size: 3.5vh;
+  }
+  .Left-content-heading h1 .today{
+      font-size: 7vh;
+      text-align: center;
+      margin: 10px auto;
+  }
+  .Left-content-paragraph p{
+      font-size: 2vh;
+  }
+  .right-content{
+      width: 80vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: red;
+      text-align: center;
+      
+  }
+  h6 {
+      font-size: 3vw;
+
+  }
+   h4{
+      font-size: 7vw;
+   }
+  .right-content .form-box{
+      font-size: 4vw;
+      padding: 4vh;
+  }
+  .right-content .form-box form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 2vw;
+      align-items: center;
+  }
+  .right-content .form-box form input{
+      width: 100%;
+      height: 5vh;
+      text-align: center;
+      border-radius: 20px;
+      color: red;
+      margin: 1.5vw;
+  }
+  .right-content .form-box form textarea{
+      width: 100%;
+
+  }
+}

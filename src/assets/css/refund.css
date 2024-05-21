@@ -1,0 +1,56 @@
+.refund{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/abstract-plain-white-background_23-2148545265.jpg?t=st=1716051782~exp=1716055382~hmac=e11f3da8340b266c7867a7aedc8bae1e19244b6a9ea615ce80361b664e882a59&w=900");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 4vw;
+}
+.refund h2{
+    text-transform: capitalize;
+    font-size: 2vw;
+    margin: 1.5vw 0;
+    font-weight: 800;
+}
+.refund p{
+    font-size: 1.5vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+ol{
+    padding-bottom: 2vw;
+    font-size: 1.5vw;
+}
+@media (max-width:600px) {
+    .refund{
+        height: 100%;
+        width: 100%;
+        padding: 3vh;
+    }
+    .refund h2{
+        font-size: 3vh;
+    }
+    .refund p{
+        font-size: 2vh;
+    }
+    .refund ol{
+        font-size: 2vh;
+    }
+}
+@media (max-width:1025px) {
+    .refund{
+        height: 100%;
+        width: 100%;
+        padding: 4vw;
+    }
+    .refund h2{
+        font-size: 4vw;
+    }
+    .refund p{
+        font-size: 3vw;
+    }
+    .refund ol{
+        font-size: 3vw;
+    }
+};
